@@ -6,7 +6,7 @@ import RoomPage from './pages/RoomPage';
 import Forms from './components/Forms';
 import { useEffect, useState } from "react";
 
-const server = "http://localhost:5000";
+const server = "https://deployment2-3qs5.onrender.com";
 const connectionOptions = {
   "force new connection": true,
   reconnectionAttempts: "Infinity",
