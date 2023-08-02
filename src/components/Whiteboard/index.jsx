@@ -24,7 +24,7 @@ const WhiteBoard = ({canvasRef,ctxRef, elements,setElements,tool,color,user,sock
 
     useEffect(() => {
         const canvas = canvasRef.current;
-        canvas.height = window.innerHeight*2;
+        canvas.height = window.innerHeight/2;
         canvas.width = window.innerWidth*2;
         const ctx = canvas.getContext("2d");
         
